@@ -1,5 +1,5 @@
 ﻿//Pratik - Linq
-//Rastgele 10 adet sayıdan oluşan bir liste oluşturunuz. Bu liste üzerinden aşağıdaki linq sorgularını çalıştırarak konsol ekranına istenilenleri yazdırınız.
+//Create a list of 10 random numbers. Run the following linq queries through this list and print the desired information on the console screen.
 
 Random rnd = new Random();
 
@@ -16,7 +16,7 @@ foreach(int i in randomList)
 }
 
 
-//Çift olan sayılar
+//Even numbers
 
 Console.WriteLine("-----------EVEN NUMBERS-----------");
 
@@ -28,7 +28,7 @@ foreach(int i in evenNumbers)
 Console.WriteLine(i); }
 
 
-//Tek olan sayılar
+//Odd Numbers
 
 Console.WriteLine("-----------ODD NUMBERS-----------");
 
@@ -40,7 +40,7 @@ foreach (int i in oddNumbers)
     Console.WriteLine(i);
 }
 
-//Negatif sayılar
+//Negative Numbers
 
 Console.WriteLine("-----------NEGATIVE NUMBERS-----------");
 
@@ -54,7 +54,7 @@ foreach (int i in negativeNumbers)
 
 
 
-//Pozitif Sayılar
+//Positive Numbers
 
 Console.WriteLine("-----------POSITIVE NUMBERS-----------");
 
@@ -69,7 +69,7 @@ foreach (int i in positiveNumbers)
 
 
 
-//15'ten büyük ve 22'den küçük sayılar
+//Greater than 15 and less than 22
 
 Console.WriteLine("-----------Numbers greater than 15 and less than 22-----------");
 
@@ -81,7 +81,7 @@ foreach (int i in specialNumbers)
     Console.WriteLine(i);
 }
 
-//Listedeki her bir sayının karesi (Bunun için yeni bir liste oluşturup yazdırabilirsiniz.)
+//Find Square of each number in the list 
 
 
 Console.WriteLine("-----------SQUARED NUMBERS-----------");
